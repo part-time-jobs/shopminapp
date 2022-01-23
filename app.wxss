@@ -1,0 +1,52 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.price-color{
+  color: tomato;
+}
+/* iconfont字体图标 [alibaba]*/
+@font-face {
+  font-family: "iconfont"; /* Project id 3147586 */
+  src: url('//at.alicdn.com/t/font_3147586_55j6bt31dj.woff2?t=1642493450919') format('woff2'),
+       url('//at.alicdn.com/t/font_3147586_55j6bt31dj.woff?t=1642493450919') format('woff'),
+       url('//at.alicdn.com/t/font_3147586_55j6bt31dj.ttf?t=1642493450919') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e6e9";
+}
+
+.icon-share:before {
+  content: "\e632";
+}
+
+.icon-shopcar:before {
+  content: "\e600";
+}
+
+.icon-home:before {
+  content: "\e867";
+}
+
+.icon-map:before {
+  content: "\e786";
+}
+
+.icon-weixin:before {
+  content: "\e61c";
+}

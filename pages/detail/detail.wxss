@@ -1,0 +1,107 @@
+/* pages/detail/detail.wxss */
+
+/*幻灯片 样式*/
+.swiper-box{
+  position: relative;
+}
+.swiper-box swiper{
+  height: 850rpx;
+}
+.swiper-box swiper image{
+  width: 100%;
+  height: 100%;
+}
+.swiper-box .tips{
+  position:absolute;
+  right: 30rpx;
+  bottom: 30rpx;
+  background: #333333;
+  /*透明效果*/
+  opacity: 0.6;
+  padding: 0 15rpx;
+  border-radius: 20rpx;
+}
+.swiper-box .tips text{
+  color: #ffffff;
+}
+
+/*商品信息 样式*/
+.goods-info{
+  padding: 30rpx;
+  /* position: relative; */
+}
+.goods-info .price{
+  font-size: 32rpx;
+}
+.goods-info .share-box{
+  display: flex;
+  font-size: 32rpx;
+  /* position:absolute;
+  right: 10rpx;
+  bottom: 0rpx; */
+}
+.goods-info .share-box .title{
+  margin-top: 10rpx;
+}
+.goods-info .share-box button{
+  padding: 0 0;
+  background: #ffffff;
+  width: 88rpx;
+  font-weight: normal;
+}
+.goods-info .share-box button .icon-share{
+  font-size: 50rpx;
+}
+
+
+/*地址信息 样式*/
+.adress{
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #f5f5f5;
+  font-size: 32rpx;
+  padding: 0rpx 20rpx;
+}
+
+/*商品详情 样式*/
+.details-box{
+  padding: 20rpx 20rpx 120rpx;
+}
+.details-box image{
+  width: 100%;
+  display: block;
+}
+
+/*底部导航 样式*/
+.bottom-nav{
+  display: flex;
+  height: 110rpx;
+  background: #ffffff;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.bottom-nav .icon-common{
+  flex: 0.5;
+  text-align: center;
+  font-size: 30rpx;
+  padding-top: 10rpx;
+}
+.bottom-nav .add-shopcar{
+  flex: 1;
+  line-height: 110rpx;
+  text-align: center;
+  font-size: 36rpx;
+  background: #ffa900;
+  color: #ffffff;
+}
+.bottom-nav .iml-buy{
+  flex: 1;
+  line-height: 110rpx;
+  text-align: center;
+  font-size: 36rpx;
+  background: #fe7302;
+  color: #ffffff;
+}

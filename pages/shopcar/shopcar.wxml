@@ -1,0 +1,213 @@
+<!--pages/shopcar/shopcar.wxml-->
+<view class="page-box">
+  <!-- 顶部结构 start -->
+  <view class="top">
+    <view class="right">
+      共1件商品
+    </view>
+    <view class="left">
+      删除
+    </view>
+  </view>
+  <!-- 顶部结构 end -->
+
+  <!-- 购物车列表 start -->
+  <view class="item-list">
+    <view class="item">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+      </checkbox-group>
+
+      <view class="pic">
+        <image src="https://img11.360buyimg.com/n7/jfs/t1/199308/13/298/86408/610228b7Ea6d1691f/7a393664977a969c.jpg"></image>
+      </view>
+
+      <view class="content">
+        <view class="title">猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮</view>
+        <view class="desc">规格:标准</view>
+        <view class="price-info">
+          <view class="price price-color">¥88.8</view>
+          <view class="operate">
+            <view class="reduce">-</view>
+            <input value="2"></input>
+            <view class="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="item">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+      </checkbox-group>
+
+      <view class="pic">
+        <image src="https://img11.360buyimg.com/n7/jfs/t1/199308/13/298/86408/610228b7Ea6d1691f/7a393664977a969c.jpg"></image>
+      </view>
+
+      <view class="content">
+        <view class="title">猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮</view>
+        <view class="desc">规格:标准</view>
+        <view class="price-info">
+          <view class="price price-color">¥88.8</view>
+          <view class="operate">
+            <view class="reduce">-</view>
+            <input value="2"></input>
+            <view class="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+      </checkbox-group>
+
+      <view class="pic">
+        <image src="https://img11.360buyimg.com/n7/jfs/t1/199308/13/298/86408/610228b7Ea6d1691f/7a393664977a969c.jpg"></image>
+      </view>
+
+      <view class="content">
+        <view class="title">猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮</view>
+        <view class="desc">规格:标准</view>
+        <view class="price-info">
+          <view class="price price-color">¥88.8</view>
+          <view class="operate">
+            <view class="reduce">-</view>
+            <input value="2"></input>
+            <view class="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+      </checkbox-group>
+
+      <view class="pic">
+        <image src="https://img11.360buyimg.com/n7/jfs/t1/199308/13/298/86408/610228b7Ea6d1691f/7a393664977a969c.jpg"></image>
+      </view>
+
+      <view class="content">
+        <view class="title">猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮</view>
+        <view class="desc">规格:标准</view>
+        <view class="price-info">
+          <view class="price price-color">¥88.8</view>
+          <view class="operate">
+            <view class="reduce">-</view>
+            <input value="2"></input>
+            <view class="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+      </checkbox-group>
+
+      <view class="pic">
+        <image src="https://img11.360buyimg.com/n7/jfs/t1/199308/13/298/86408/610228b7Ea6d1691f/7a393664977a969c.jpg"></image>
+      </view>
+
+      <view class="content">
+        <view class="title">猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮</view>
+        <view class="desc">规格:标准</view>
+        <view class="price-info">
+          <view class="price price-color">¥88.8</view>
+          <view class="operate">
+            <view class="reduce">-</view>
+            <input value="2"></input>
+            <view class="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+      </checkbox-group>
+
+      <view class="pic">
+        <image src="https://img11.360buyimg.com/n7/jfs/t1/199308/13/298/86408/610228b7Ea6d1691f/7a393664977a969c.jpg"></image>
+      </view>
+
+      <view class="content">
+        <view class="title">猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮</view>
+        <view class="desc">规格:标准</view>
+        <view class="price-info">
+          <view class="price price-color">¥88.8</view>
+          <view class="operate">
+            <view class="reduce">-</view>
+            <input value="2"></input>
+            <view class="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+      </checkbox-group>
+
+      <view class="pic">
+        <image src="https://img11.360buyimg.com/n7/jfs/t1/199308/13/298/86408/610228b7Ea6d1691f/7a393664977a969c.jpg"></image>
+      </view>
+
+      <view class="content">
+        <view class="title">猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮</view>
+        <view class="desc">规格:标准</view>
+        <view class="price-info">
+          <view class="price price-color">¥88.8</view>
+          <view class="operate">
+            <view class="reduce">-</view>
+            <input value="2"></input>
+            <view class="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="item">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+      </checkbox-group>
+
+      <view class="pic">
+        <image src="https://img11.360buyimg.com/n7/jfs/t1/199308/13/298/86408/610228b7Ea6d1691f/7a393664977a969c.jpg"></image>
+      </view>
+
+      <view class="content">
+        <view class="title">猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮猫粮</view>
+        <view class="desc">规格:标准</view>
+        <view class="price-info">
+          <view class="price price-color">¥88.8</view>
+          <view class="operate">
+            <view class="reduce">-</view>
+            <input value="2"></input>
+            <view class="add">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 购物车列表 end -->
+
+  <!-- 底部结算结构 start -->
+  <view class="total-box">
+    <view class="all">
+      <checkbox-group>
+        <checkbox value="1" checked="{{false}}"></checkbox>
+        <text>全选</text>
+      </checkbox-group>
+    </view>
+
+    <view class="total-price">
+      总价:
+      <text class="price price-color">¥88</text>
+    </view>
+
+    <view class="btn {{totalSelected>0?'btn-primary':'btn-default'}}" bindtap="calPrice">去结算</view>
+  </view>
+  <!-- 底部结算结构 end -->
+</view>

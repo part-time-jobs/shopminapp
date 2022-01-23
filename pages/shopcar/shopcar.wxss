@@ -1,0 +1,141 @@
+/* pages/shopcar/shopcar.wxss */
+page{
+  background: #eeeeee;
+  height: 100%;
+}
+.top{
+  display: flex;
+  background: #eeeeee;
+  font-size: 32rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  /*元素压盖*/
+  z-index:5;
+  vertical-align: middle;
+}
+.top .right{
+  flex: 1;
+}
+
+.item-list{
+  padding: 100rpx 0 110rpx;
+}
+.item-list .item{
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 2rpx #eeeeee;
+  background: #ffffff;
+}
+.item-list .item image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.item-list .item .content{
+  margin-left: 20rpx;
+  flex: 1;
+}
+.item-list .item .content .title{
+  /*显示两行，超出省略号*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 32rpx;
+}
+.item-list .item .content .desc{
+  /*显示两行，超出省略号*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 30rpx;
+  color: #999;
+}
+.item-list .item .content .price-info{
+  display: flex;
+}
+.item-list .item .content .price-info .price{
+  font-size: 36rpx;
+  width: 65%;
+}
+.item-list .item .content .price-info .operate{
+  display: flex;
+  border: solid 2rpx #cccccc;
+  border-radius: 10rpx;
+}
+.item-list .item .content .price-info .reduce{
+  border-right: solid 2rpx #cccccc;
+  text-align: center;
+  width: 50rpx;
+}
+.item-list .item .content .price-info input{
+  text-align: center;
+  width: 80rpx;
+  font-size: 28rpx;
+}
+.item-list .item .content .price-info .add{
+  border-left: solid 2rpx #cccccc;
+  text-align: center;
+  width: 50rpx;
+}
+
+.total-box{
+  /*元素压盖*/
+  z-index:5;
+  display: flex;
+  position: fixed;
+  left: 0;
+  height: 100rpx;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+  align-items: center;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.total-box .all{
+  font-size: 28rpx;
+  width: 130rpx;
+  margin-top: 10rpx;
+}
+.total-box .total-price{
+  font-size: 28rpx;
+  flex: 1;
+  text-align: center;
+}
+.total-box .total-price .price{
+  font-size: 36rpx;
+}
+.total-box .btn{
+  width: 130rpx;
+  font-size: 32rpx;
+  border: solid 2rpx #eeeeee;
+  text-align: center;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background: #eeeeee;
+}
+.total-box .btn-default{
+  width: 130rpx;
+  font-size: 32rpx;
+  border: solid 2rpx #eeeeee;
+  text-align: center;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background: #eeeeee;
+}
+.total-box .btn-primary{
+  background: tomato;
+  color: #ffffff;
+}
